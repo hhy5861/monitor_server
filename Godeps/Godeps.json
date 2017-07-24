@@ -1,0 +1,134 @@
+{
+	"ImportPath": "gitlab.pnlyy.com/monitor_server",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Sirupsen/logrus",
+			"Comment": "v0.11.5-46-g5e5dc89",
+			"Rev": "5e5dc898656f695e2a086b8e12559febbfc01562"
+		},
+		{
+			"ImportPath": "github.com/bitly/go-simplejson",
+			"Comment": "v0.5.0-4-gda1a892",
+			"Rev": "da1a8928f709389522c8023062a3739f3b4af419"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/internal",
+			"Comment": "v1.1.0-6-g57f1cd7",
+			"Rev": "57f1cd7de6175c96b423e7ac2534ff2b39e2ef79"
+		},
+		{
+			"ImportPath": "github.com/garyburd/redigo/redis",
+			"Comment": "v1.1.0-6-g57f1cd7",
+			"Rev": "57f1cd7de6175c96b423e7ac2534ff2b39e2ef79"
+		},
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.3-18-g382e13d",
+			"Rev": "382e13d099fcf5f5994290892ab258fbebbdc5e3"
+		},
+		{
+			"ImportPath": "github.com/golang/glog",
+			"Rev": "23def4e6c14b4da8ac2ed8007337bc5eb5007998"
+		},
+		{
+			"ImportPath": "github.com/hhy5861/aescrypt",
+			"Rev": "aa4bf830c6aad7fafc15828e33c0e336cd6ebe61"
+		},
+		{
+			"ImportPath": "github.com/hhy5861/logrus",
+			"Rev": "ebb5d28c7c9d88ba3d597d32ee9d2c3d8f9eed70"
+		},
+		{
+			"ImportPath": "github.com/hhy5861/token",
+			"Rev": "867af23100a8c2f403f9e6d2585a7bc12b3003b0"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/gorm",
+			"Comment": "v1.0-160-g2a14638",
+			"Rev": "2a1463811ee1dc85d168fd639a2d4251d030e6e5"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/gorm/dialects/mysql",
+			"Comment": "v1.0-160-g2a14638",
+			"Rev": "2a1463811ee1dc85d168fd639a2d4251d030e6e5"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/inflection",
+			"Rev": "1c35d901db3da928c72a72d8458480cc9ade058f"
+		},
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Comment": "v1.1-51-g975b5c4",
+			"Rev": "975b5c4c7c21c0e3d2764200bf2aa8e34657ae6e"
+		},
+		{
+			"ImportPath": "github.com/kataras/iris/core/errors",
+			"Comment": "v6.2-33-g20f3002",
+			"Rev": "20f30022705b5b0728c71cdcc819a319224a636e"
+		},
+		{
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-5-gc605e28",
+			"Rev": "c605e284fe17294bda444b34710735b29d1a9d90"
+		},
+		{
+			"ImportPath": "github.com/robfig/cron",
+			"Comment": "v1-58-g736158d",
+			"Rev": "736158dc09e10f1911ca3a1e1b01f11b566ce5db"
+		},
+		{
+			"ImportPath": "github.com/urfave/cli",
+			"Comment": "v1.19.1-36-gd70f47e",
+			"Rev": "d70f47eeca3afd795160003bc6e28b001d60c67c"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/acl",
+			"Comment": "v2.1.0-alpha.1-1386-g53c29ba62",
+			"Rev": "53c29ba6229b6459dca34f689f0b92b8b460baa7"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/cache",
+			"Comment": "v2.1.0-alpha.1-1386-g53c29ba62",
+			"Rev": "53c29ba6229b6459dca34f689f0b92b8b460baa7"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/pools",
+			"Comment": "v2.1.0-alpha.1-1386-g53c29ba62",
+			"Rev": "53c29ba6229b6459dca34f689f0b92b8b460baa7"
+		},
+		{
+			"ImportPath": "github.com/youtube/vitess/go/sync2",
+			"Comment": "v2.1.0-alpha.1-1386-g53c29ba62",
+			"Rev": "53c29ba6229b6459dca34f689f0b92b8b460baa7"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "057a25b06247e0c51ba15d8ae475feb2fcb72164"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "9a7256cb28ed514b4e1e5f68959914c4c28a92e0"
+		},
+		{
+			"ImportPath": "gopkg.in/gomail.v2",
+			"Comment": "2.0.0-23-g81ebce5",
+			"Rev": "81ebce5c23dfd25c6c67194b37d3dd3f338c98b1"
+		},
+		{
+			"ImportPath": "gopkg.in/olivere/elastic.v5",
+			"Comment": "v5.0.41",
+			"Rev": "3113f9b9ad37509fe5f8a0e5e91c96fdc4435e26"
+		},
+		{
+			"ImportPath": "gopkg.in/olivere/elastic.v5/uritemplates",
+			"Comment": "v5.0.41",
+			"Rev": "3113f9b9ad37509fe5f8a0e5e91c96fdc4435e26"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
+		}
+	]
+}

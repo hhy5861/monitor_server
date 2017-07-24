@@ -1,0 +1,29 @@
+servce:
+    host: 127.0.0.1
+    port: 3000
+    debug: false
+    log-path: /data/logs/monitor_server
+    elastic_addres: http://192.168.40.222:9200
+
+redis:
+    host: 127.0.0.1
+    port: 6379
+    password: tlslpc
+    db: 10
+
+mysql:
+    host: 127.0.0.1
+    port: 3306
+    dbname: monitor_servce
+    user: mike
+    password: tlslpc
+    charset: utf8
+    dialect: mysql
+
+email:
+    from: vip-gitlab@vipractice.cn
+    smtp: smtp.exmail.qq.com
+    port: 465
+    user: vip-gitlab@vipractice.cn
+    password: Music123
+
